@@ -1,5 +1,5 @@
 TARGET = program.exe
-SRCS = main.c
+SRCS = main.c sub.c
 OBJS = $(SRCS:.c=.o)
 CC = gcc
 CFLAGS = -g -Wall
